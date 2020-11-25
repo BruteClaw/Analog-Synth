@@ -1,0 +1,87 @@
+Housings_DIP:DIP-14_W7.62mm_Socket_LongPads
+
+LEDs:LED_Rectangular_W3.9mm_H1.9mm
+
+Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+
+Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+
+On NOT Gate:
+
+Jacks - 87mm
+
+Jack Annotation - 71mm
+
+LED - 83mm
+
+LED Annotation - 81mm
+
+Seperation from Jack - 8mm
+
+Resistor - 79mm
+
+Resistor Annotation - 69mm
+
+Same line as LED
+
+To next Jack - 8mm
+
+On NOR Gate:
+
+Offset From Jack - 10mm
+
+LEDs - 85mm
+
+Resistor - 72mm
+
+
+Locations on Face Plate:
+Height - 133.4mm
+Width - 26.25mm
+Jack Hole - 6mm
+LED Hole - 2mm
+Between Input and Output - 14.24mm
+
+AND, NAND, XOR, OR & NOR Inputs - 6mm
+1 - 23mm
+2 - 35mm
+3 - 48mm
+4 - 60mm
+5 - 73mm
+6 - 85mm
+7 - 98mm
+8 - 110mm
+
+AND, NAND, XOR, OR & NOR Outputs - 20.24mm
+1 - 29mm
+LED1 - 39mm
+2 - 54mm
+LED2 - 64mm
+3 - 79mm
+LED3 - 89mm
+4 - 104mm
+LED - 114mm
+
+NOT Inputs - 6mm
+1 - 22.675mm
+2 - 38.675mm
+3 - 54.675mm
+4 - 70.675mm
+5 - 86.675mm
+6 - 102.675mm
+
+NOT Outputs - 20.24mm
+1 - 22.675mm
+LED1 -30.675mm
+2 - 38.675mm
+LED2 -46.675mm
+3 - 54.675mm
+LED3 -62.675mm
+4 - 70.675mm
+LED4 -78.675mm
+5 - 86.675mm
+LED5 -94.675mm
+6 - 102.675mm
+LED6 -110.675mm
+
+
