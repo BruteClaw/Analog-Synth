@@ -1,4 +1,4 @@
-update=12/5/2020 11:52:15 AM
+update=12/5/2020 11:43:18 AM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Power_Distribution.net
+LastNetListRead=ADSR_Envelope.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -57,7 +57,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

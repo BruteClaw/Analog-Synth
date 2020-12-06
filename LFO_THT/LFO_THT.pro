@@ -1,4 +1,4 @@
-update=12/5/2020 11:52:15 AM
+update=12/5/2020 8:34:07 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Power_Distribution.net
+LastNetListRead=LFO_THT.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -238,8 +238,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=PWR
-Clearance=0.2
-TrackWidth=0.5
+Clearance=0.3
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

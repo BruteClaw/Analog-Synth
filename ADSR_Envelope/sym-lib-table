@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ADSR_Envelope-rescue)(type Legacy)(uri ${KIPRJMOD}/ADSR_Envelope-rescue.lib)(options "")(descr ""))
+)
