@@ -1,3 +1,6 @@
+Midi to CV design:
+https://github.com/elkayem/midi2cv
+
 Housings_DIP:DIP-14_W7.62mm_Socket_LongPads
 
 LEDs:LED_Rectangular_W3.9mm_H1.9mm
