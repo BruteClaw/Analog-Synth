@@ -284,17 +284,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 2650 4400 2650
 Connection ~ 4450 2500
-$Comp
-L Timer:ICM7555 U2
-U 1 1 5F3A309B
-P 6100 2050
-F 0 "U2" H 6100 2631 50  0000 C CNN
-F 1 "ICM7555" H 6100 2540 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 6100 2050 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 6100 2050 50  0001 C CNN
-	1    6100 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 1850 5300 1850
 Wire Wire Line
@@ -1500,4 +1489,15 @@ Wire Wire Line
 	5750 5900 5750 7200
 Wire Wire Line
 	5800 6000 5800 7500
+$Comp
+L Timer:ICM7555xB U2
+U 1 1 5FD4D518
+P 6100 2050
+F 0 "U2" H 6100 2631 50  0000 C CNN
+F 1 "ICM7555xB" H 6100 2540 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 6950 1650 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 6950 1650 50  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

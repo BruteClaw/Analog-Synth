@@ -285,14 +285,14 @@ Wire Wire Line
 	4450 2650 4400 2650
 Connection ~ 4450 2500
 $Comp
-L Timer:ICM7555 U2
+L ADSR_Envelope_THT-rescue:ICM7555-Timer U9
 U 1 1 5F3A309B
-P 6100 2050
-F 0 "U2" H 6100 2631 50  0000 C CNN
-F 1 "ICM7555" H 6100 2540 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 6100 2050 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 6100 2050 50  0001 C CNN
-	1    6100 2050
+P 8050 3200
+F 0 "U9" H 8050 3781 50  0000 C CNN
+F 1 "ICM7555" H 8050 3690 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 8050 3200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 8050 3200 50  0001 C CNN
+	1    8050 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -725,58 +725,58 @@ Wire Wire Line
 $Comp
 L Device:R R18
 U 1 1 5F46B0D6
-P 5250 6950
-F 0 "R18" V 5150 6950 50  0000 C CNN
-F 1 "1k" V 5250 6950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 6950 50  0001 C CNN
-F 3 "~" H 5250 6950 50  0001 C CNN
-	1    5250 6950
+P 5350 7200
+F 0 "R18" V 5250 7200 50  0000 C CNN
+F 1 "1k" V 5350 7200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5280 7200 50  0001 C CNN
+F 3 "~" H 5350 7200 50  0001 C CNN
+	1    5350 7200
 	0    1    1    0   
 $EndComp
 $Comp
 L Custom_Lib:AudioJack1_Switch J2
 U 1 1 5F471B9C
-P 4800 6650
-F 0 "J2" H 4612 6601 50  0000 R CNN
-F 1 "AudioJack1_Switch" H 4612 6692 50  0000 R CNN
-F 2 "Custom_Library:Mono_Jack_3.5mm_Switch_Switchcraft_35RAPC2AH3" H 4800 6650 50  0001 C CNN
-F 3 "~" H 4800 6650 50  0001 C CNN
-	1    4800 6650
+P 4900 6900
+F 0 "J2" H 4712 6851 50  0000 R CNN
+F 1 "AudioJack1_Switch" H 4712 6942 50  0000 R CNN
+F 2 "Custom_Library:Mono_Jack_3.5mm_Switch_Switchcraft_35RAPC2AH3" H 4900 6900 50  0001 C CNN
+F 3 "~" H 4900 6900 50  0001 C CNN
+	1    4900 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 5F4731BC
-P 5250 6550
-F 0 "R16" V 5150 6550 50  0000 C CNN
-F 1 "1k" V 5250 6550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 6550 50  0001 C CNN
-F 3 "~" H 5250 6550 50  0001 C CNN
-	1    5250 6550
+P 5350 6800
+F 0 "R16" V 5250 6800 50  0000 C CNN
+F 1 "1k" V 5350 6800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5280 6800 50  0001 C CNN
+F 3 "~" H 5350 6800 50  0001 C CNN
+	1    5350 6800
 	0    1    1    0   
 $EndComp
-NoConn ~ 5000 6650
+NoConn ~ 5100 6900
 $Comp
 L Custom_Lib:AudioJack1_Switch J4
 U 1 1 5F487430
-P 4800 7050
-F 0 "J4" H 4612 7001 50  0000 R CNN
-F 1 "AudioJack1_Switch" H 4612 7092 50  0000 R CNN
-F 2 "Custom_Library:Mono_Jack_3.5mm_Switch_Switchcraft_35RAPC2AH3" H 4800 7050 50  0001 C CNN
-F 3 "~" H 4800 7050 50  0001 C CNN
-	1    4800 7050
+P 4900 7300
+F 0 "J4" H 4712 7251 50  0000 R CNN
+F 1 "AudioJack1_Switch" H 4712 7342 50  0000 R CNN
+F 2 "Custom_Library:Mono_Jack_3.5mm_Switch_Switchcraft_35RAPC2AH3" H 4900 7300 50  0001 C CNN
+F 3 "~" H 4900 7300 50  0001 C CNN
+	1    4900 7300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5000 7050
+NoConn ~ 5100 7300
 Text Notes 1250 5600 0    50   ~ 0
 Gate In
 Text Notes 4850 5050 0    50   ~ 0
 Manual Trigger
-Text Notes 4900 6750 0    50   ~ 0
+Text Notes 5000 7000 0    50   ~ 0
 ADSR Out
-Text Notes 4900 7150 0    50   ~ 0
+Text Notes 5000 7400 0    50   ~ 0
 Inverse ADSR Out
-Text GLabel 6900 5800 2    50   Input ~ 0
+Text GLabel 6900 6000 2    50   Input ~ 0
 GND
 Wire Wire Line
 	8950 3100 9450 3100
@@ -857,12 +857,12 @@ Wire Wire Line
 $Comp
 L Device:LED D6
 U 1 1 5F4F93D6
-P 4750 7500
-F 0 "D6" V 4697 7578 50  0000 L CNN
-F 1 "LED" V 4788 7578 50  0000 L CNN
-F 2 "LEDs:LED_Rectangular_W3.9mm_H1.9mm" H 4750 7500 50  0001 C CNN
-F 3 "~" H 4750 7500 50  0001 C CNN
-	1    4750 7500
+P 4750 6550
+F 0 "D6" V 4697 6628 50  0000 L CNN
+F 1 "LED" V 4788 6628 50  0000 L CNN
+F 2 "LEDs:LED_Rectangular_W3.9mm_H1.9mm" H 4750 6550 50  0001 C CNN
+F 3 "~" H 4750 6550 50  0001 C CNN
+	1    4750 6550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1278,12 +1278,12 @@ Wire Wire Line
 Wire Wire Line
 	4800 4700 4900 4700
 Wire Wire Line
-	5100 6550 5000 6550
+	5200 6800 5100 6800
 Wire Wire Line
-	5100 6950 5000 6950
+	5200 7200 5100 7200
 Text GLabel 10400 2350 2    50   Input ~ 0
 ADSRout
-Text GLabel 6900 5700 2    50   Input ~ 0
+Text GLabel 6900 5900 2    50   Input ~ 0
 ADSRInvert
 Wire Wire Line
 	10400 3250 10250 3250
@@ -1295,7 +1295,7 @@ Wire Wire Line
 Connection ~ 10200 2350
 Wire Wire Line
 	10200 2350 10200 2150
-Text GLabel 6900 5600 2    50   Input ~ 0
+Text GLabel 6900 5800 2    50   Input ~ 0
 ADSRout
 Text GLabel 10400 3250 2    50   Input ~ 0
 ADSRInvert
@@ -1353,29 +1353,29 @@ Text GLabel 7000 3800 2    50   Input ~ 0
 LEDout
 Text GLabel 7000 4300 2    50   Input ~ 0
 LEDin
-Text GLabel 6900 6000 2    50   Input ~ 0
+Text GLabel 6900 5700 2    50   Input ~ 0
 LEDin
-Text GLabel 6900 5900 2    50   Input ~ 0
+Text GLabel 6900 5600 2    50   Input ~ 0
 LEDout
 Wire Wire Line
-	4750 7350 5750 7350
+	4750 6400 5600 6400
 Wire Wire Line
 	5750 5900 5900 5900
 Wire Wire Line
 	5900 5800 5700 5800
 Wire Wire Line
-	5700 7250 4700 7250
+	5800 7500 4800 7500
 Wire Wire Line
-	4700 7250 4700 7200
+	4800 7500 4800 7450
 Wire Wire Line
-	4700 6800 4500 6800
+	4800 7050 4600 7050
 Wire Wire Line
-	4500 6800 4500 7250
+	4600 7050 4600 7500
 Wire Wire Line
-	4500 7250 4700 7250
-Connection ~ 4700 7250
+	4600 7500 4800 7500
+Connection ~ 4800 7500
 Wire Wire Line
-	5400 6550 5600 6550
+	5500 6800 5700 6800
 Wire Wire Line
 	5600 5600 5900 5600
 Wire Wire Line
@@ -1410,12 +1410,6 @@ Wire Wire Line
 	3450 3800 3500 3800
 Wire Wire Line
 	3500 3800 3500 3900
-Wire Wire Line
-	5600 5600 5600 6550
-Wire Wire Line
-	5700 5800 5700 7250
-Wire Wire Line
-	5750 5900 5750 7350
 Text Notes 5500 4550 0    50   ~ 0
 Output Board\n
 Text GLabel 6900 5400 2    50   Input ~ 0
@@ -1455,17 +1449,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 5800 4650 6150
 Wire Wire Line
-	5400 6950 5650 6950
+	5500 7200 5750 7200
 Wire Wire Line
 	5650 5700 5900 5700
 Wire Wire Line
-	5650 5700 5650 6950
-Wire Wire Line
 	5900 6000 5800 6000
-Wire Wire Line
-	5800 6000 5800 7650
-Wire Wire Line
-	5800 7650 4750 7650
 Wire Wire Line
 	5900 5500 5550 5500
 Wire Wire Line
@@ -1494,10 +1482,33 @@ Wire Wire Line
 	5200 6250 5100 6250
 Text Label 5350 4900 0    50   ~ 0
 12VDC_Out
-Text Label 5000 7250 0    50   ~ 0
+Text Label 5100 7500 0    50   ~ 0
 GND_Out
 Text Label 1650 6000 0    50   ~ 0
 12VDC_In
 Text Label 1600 5500 0    50   ~ 0
 GND_In
+Wire Wire Line
+	5600 5600 5600 6400
+Wire Wire Line
+	5650 5700 5650 6700
+Wire Wire Line
+	5650 6700 4750 6700
+Wire Wire Line
+	5700 5800 5700 6800
+Wire Wire Line
+	5750 5900 5750 7200
+Wire Wire Line
+	5800 6000 5800 7500
+$Comp
+L Timer:ICM7555xB U2
+U 1 1 5FD4D518
+P 6100 2050
+F 0 "U2" H 6100 2631 50  0000 C CNN
+F 1 "ICM7555xB" H 6100 2540 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 6950 1650 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf" H 6950 1650 50  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
