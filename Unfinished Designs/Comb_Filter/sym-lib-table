@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Comb_Filter-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Comb_Filter-eagle-import.lib)(options "")(descr ""))
 )

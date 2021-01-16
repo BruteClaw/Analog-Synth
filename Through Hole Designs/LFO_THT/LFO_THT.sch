@@ -1151,7 +1151,7 @@ F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 4250 1200 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:ICM7555 U1
+L LFO_THT-rescue:ICM7555-Timer U1
 U 1 1 5FFAE60D
 P 5650 1400
 F 0 "U1" H 5650 1981 50  0000 C CNN
