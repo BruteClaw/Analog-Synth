@@ -1107,7 +1107,7 @@ F 3 "~" H 3350 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Timer:ICM7555 U1
+L LFO-rescue:ICM7555-Timer U1
 U 1 1 5FFAE60D
 P 5650 1400
 F 0 "U1" H 5650 1981 50  0000 C CNN
