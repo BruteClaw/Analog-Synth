@@ -1289,7 +1289,7 @@
 
   (footprint "Capacitors_SMD:CP_Elec_6.3x5.8" (layer "B.Cu")
     (tedit 58AA8B59) (tstamp 00000000-0000-0000-0000-000060037d48)
-    (at 42.725001 246.459999)
+    (at 74.168 12.2428)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path "/00000000-0000-0000-0000-0000601b32e2")
     (attr smd)
@@ -1345,7 +1345,7 @@
 
   (footprint "Capacitors_SMD:CP_Elec_6.3x5.8" (layer "B.Cu")
     (tedit 58AA8B59) (tstamp 00000000-0000-0000-0000-000060037d63)
-    (at 71.46 104.71 180)
+    (at 25.908 84.836)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path "/00000000-0000-0000-0000-0000601b7572")
     (attr smd)
@@ -1388,9 +1388,9 @@
     (fp_line (start -3.15 -2.48) (end -2.48 -3.15) (layer "B.Fab") (width 0.1) (tstamp a0f6ecb7-ddaf-4b1e-9b89-cdfe3f1f4a12))
     (fp_line (start -2.48 -3.15) (end 3.15 -3.15) (layer "B.Fab") (width 0.1) (tstamp b75e6d15-4d7a-4aec-ab57-dc77af04a9b9))
     (fp_circle (center 0 0) (end 0.5 -3) (layer "B.Fab") (width 0.1) (fill none) (tstamp 6ccf7be9-8d30-475d-8941-1f167d5de7ec))
-    (pad "1" smd rect locked (at -2.7 0) (size 3.5 1.6) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "1" smd rect locked (at -2.7 0 180) (size 3.5 1.6) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 54 "+12") (tstamp 1e4121a8-838d-461e-bd87-c7b273513df5))
-    (pad "2" smd rect locked (at 2.7 0) (size 3.5 1.6) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "2" smd rect locked (at 2.7 0 180) (size 3.5 1.6) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 55 "-12") (tstamp 139dad75-0222-4e43-bc59-5c28bfe18b85))
     (model "Capacitors_SMD.3dshapes/CP_Elec_6.3x5.8.wrl"
       (offset (xyz 0 0 0))
@@ -1401,7 +1401,7 @@
 
   (footprint "Capacitors_SMD:CP_Elec_6.3x5.8" (layer "B.Cu")
     (tedit 58AA8B59) (tstamp 00000000-0000-0000-0000-000060037d7e)
-    (at 73.475001 265.589999)
+    (at 25.8572 12.7508)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path "/00000000-0000-0000-0000-0000601b8a8e")
     (attr smd)
@@ -1457,7 +1457,7 @@
 
   (footprint "Capacitors_SMD:CP_Elec_6.3x5.8" (layer "B.Cu")
     (tedit 58AA8B59) (tstamp 00000000-0000-0000-0000-000060037d99)
-    (at 26.125001 234.279999)
+    (at 74.422 80.3148)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path "/00000000-0000-0000-0000-0000601b9753")
     (attr smd)
